@@ -15,6 +15,7 @@ import { ApplicationState } from './store';
 
 const bem = cn('Application');
 
+// some comment to have diff
 export const Application: FC = () => {
     const [collapsed, setCollapsed] = useState(true);
     const cart = useSelector((s: ApplicationState) => s.cart);
